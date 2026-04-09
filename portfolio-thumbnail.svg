@@ -1,0 +1,68 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="1080" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F1724"/>
+      <stop offset="1" stop-color="#16263A"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="180" y1="130" x2="1010" y2="570" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A2A3F"/>
+      <stop offset="1" stop-color="#111B2B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#73A7E6"/>
+      <stop offset="1" stop-color="#8EC5FF"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1200" height="700" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="18" stdDeviation="30" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="700" rx="42" fill="url(#bg)"/>
+  <circle cx="1030" cy="110" r="170" fill="#73A7E6" fill-opacity="0.12"/>
+  <circle cx="160" cy="590" r="220" fill="#F97316" fill-opacity="0.10"/>
+  <path d="M70 130C230 40 420 40 560 96C692 147 804 153 1070 74" stroke="#7AA6D6" stroke-opacity="0.18" stroke-width="6" stroke-linecap="round"/>
+  <path d="M110 560C310 470 520 470 720 530C874 576 990 582 1130 520" stroke="#F59E0B" stroke-opacity="0.14" stroke-width="8" stroke-linecap="round"/>
+
+  <g filter="url(#shadow)">
+    <rect x="88" y="78" width="1024" height="544" rx="34" fill="url(#panel)" stroke="#4C6482" stroke-opacity="0.6"/>
+  </g>
+
+  <rect x="126" y="116" width="170" height="24" rx="12" fill="#223449"/>
+  <circle cx="150" cy="128" r="7" fill="#F87171"/>
+  <circle cx="172" cy="128" r="7" fill="#FBBF24"/>
+  <circle cx="194" cy="128" r="7" fill="#34D399"/>
+
+  <text x="126" y="214" fill="#F5FAFF" font-family="Space Grotesk, Arial, sans-serif" font-size="72" font-weight="700">Portfolio</text>
+  <text x="126" y="264" fill="#C8D6E8" font-family="IBM Plex Sans, Arial, sans-serif" font-size="30" font-weight="500">Robin Vaz</text>
+  <text x="126" y="320" fill="#9FB4CB" font-family="IBM Plex Sans, Arial, sans-serif" font-size="22">Ingénierie · systèmes embarqués · automobile · data</text>
+
+  <g transform="translate(126 372)">
+    <rect width="250" height="132" rx="24" fill="#162233" stroke="#46607D"/>
+    <rect x="22" y="22" width="78" height="10" rx="5" fill="url(#accent)"/>
+    <rect x="22" y="48" width="196" height="12" rx="6" fill="#31445D"/>
+    <rect x="22" y="70" width="164" height="12" rx="6" fill="#31445D"/>
+    <rect x="22" y="92" width="118" height="12" rx="6" fill="#31445D"/>
+  </g>
+
+  <g transform="translate(408 372)">
+    <rect width="250" height="132" rx="24" fill="#17253A" stroke="#46607D"/>
+    <rect x="22" y="22" width="104" height="10" rx="5" fill="url(#accent2)"/>
+    <circle cx="46" cy="70" r="18" fill="#2C3E56"/>
+    <circle cx="92" cy="70" r="18" fill="#2C3E56"/>
+    <circle cx="138" cy="70" r="18" fill="#2C3E56"/>
+    <rect x="22" y="98" width="170" height="12" rx="6" fill="#31445D"/>
+  </g>
+
+  <g transform="translate(690 372)">
+    <rect width="250" height="132" rx="24" fill="#162233" stroke="#46607D"/>
+    <rect x="22" y="22" width="124" height="10" rx="5" fill="url(#accent)"/>
+    <rect x="22" y="50" width="206" height="10" rx="5" fill="#31445D"/>
+    <rect x="22" y="70" width="186" height="10" rx="5" fill="#31445D"/>
+    <rect x="22" y="90" width="148" height="10" rx="5" fill="#31445D"/>
+  </g>
+
+</svg>

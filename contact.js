@@ -1,6 +1,7 @@
 const { useState } = React;
 
 function ContactPage() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [subject, setSubject] = useState('');
@@ -55,12 +56,22 @@ function ContactPage() {
         <a className="brand" href="index.html#top">
           Robin Vaz
         </a>
-        <nav>
-          <a href="index.html#top">Accueil</a>
-          <a href="projects.html">Projets</a>
-          <a href="index.html#competences">Competences</a>
-          <a href="experience.html">Experiences</a>
-          <a href="contact.html">Contact</a>
+        <button
+          className="mobile-menu-toggle"
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          aria-label="Toggle navigation menu"
+          aria-expanded={mobileMenuOpen}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav className={mobileMenuOpen ? 'nav-open' : ''}>
+          <a href="index.html#top" onClick={() => setMobileMenuOpen(false)}>Accueil</a>
+          <a href="projects.html" onClick={() => setMobileMenuOpen(false)}>Projets</a>
+          <a href="index.html#competences" onClick={() => setMobileMenuOpen(false)}>Competences</a>
+          <a href="experience.html" onClick={() => setMobileMenuOpen(false)}>Experiences</a>
+          <a href="contact.html" onClick={() => setMobileMenuOpen(false)}>Contact</a>
         </nav>
       </header>
 

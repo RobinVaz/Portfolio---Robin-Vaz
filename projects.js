@@ -1,6 +1,7 @@
 const { useEffect, useState } = React;
 
 function ProjectsPage() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeImage, setActiveImage] = useState(null);
   const [activeDocument, setActiveDocument] = useState(null);
   const [activeDocumentPage, setActiveDocumentPage] = useState(1);
@@ -161,7 +162,14 @@ function ProjectsPage() {
         'Versionnement Git et hebergement GitHub Pages.'
       ],
       stack: ['HTML', 'CSS', 'JavaScript', 'Git', 'GitHub Pages', 'Accessibilite'],
-      media: ['Projet portfolio']
+      media: ['Projet portfolio'],
+      mediaAssets: [
+        {
+          kind: 'image',
+          label: 'Miniature du portfolio Robin Vaz',
+          src: 'portfolio-thumbnail.svg'
+        }
+      ]
     },
     {
       title: "Gestion de bases de donnees d'une entreprise",
@@ -304,12 +312,22 @@ function ProjectsPage() {
 
       <header className="site-header reveal">
         <a className="brand" href="index.html">Robin Vaz</a>
-        <nav>
-          <a href="index.html#top">Accueil</a>
-          <a href="projects.html">Projets</a>
-          <a href="index.html#competences">Competences</a>
-          <a href="experience.html">Experiences</a>
-          <a href="index.html#contact">Contact</a>
+        <button
+          className="mobile-menu-toggle"
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          aria-label="Toggle navigation menu"
+          aria-expanded={mobileMenuOpen}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav className={mobileMenuOpen ? 'nav-open' : ''}>
+          <a href="index.html#top" onClick={() => setMobileMenuOpen(false)}>Accueil</a>
+          <a href="projects.html" onClick={() => setMobileMenuOpen(false)}>Projets</a>
+          <a href="index.html#competences" onClick={() => setMobileMenuOpen(false)}>Competences</a>
+          <a href="experience.html" onClick={() => setMobileMenuOpen(false)}>Experiences</a>
+          <a href="contact.html" onClick={() => setMobileMenuOpen(false)}>Contact</a>
         </nav>
       </header>
 
