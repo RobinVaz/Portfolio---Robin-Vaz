@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="t d">
+  <title id="t">Schema systemes embarques</title>
+  <desc id="d">Bloc diagramme ECU, capteurs et reseau CAN</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#101a2b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#bg)"/>
+  <g stroke="#9dc0eb" stroke-opacity="0.75" fill="none">
+    <rect x="70" y="78" width="200" height="90" rx="10"/>
+    <rect x="305" y="78" width="200" height="90" rx="10"/>
+    <rect x="540" y="78" width="190" height="90" rx="10"/>
+    <rect x="132" y="250" width="180" height="84" rx="10"/>
+    <rect x="370" y="250" width="180" height="84" rx="10"/>
+    <rect x="608" y="250" width="130" height="84" rx="10"/>
+    <path d="M270 123h35M505 123h35M220 168v82M460 168v82M635 168v82"/>
+    <path d="M220 334v78h230M460 334v78M673 334v78h-213"/>
+    <rect x="320" y="412" width="180" height="62" rx="10"/>
+    <circle cx="270" cy="123" r="4" fill="#9dc0eb"/>
+    <circle cx="305" cy="123" r="4" fill="#9dc0eb"/>
+    <circle cx="505" cy="123" r="4" fill="#9dc0eb"/>
+    <circle cx="540" cy="123" r="4" fill="#9dc0eb"/>
+  </g>
+  <g fill="#c4daf5" font-family="monospace" font-size="20">
+    <text x="95" y="130">ECU MAIN</text>
+    <text x="340" y="130">SENSOR FUSION</text>
+    <text x="585" y="130">CAN GATEWAY</text>
+    <text x="166" y="300">LIDAR</text>
+    <text x="402" y="300">RADAR</text>
+    <text x="631" y="300">CAM</text>
+    <text x="353" y="451">ADAS CTRL</text>
+  </g>
+  <g stroke="#5f88bf" stroke-opacity="0.45">
+    <path d="M35 42h730M35 476h730"/>
+    <path d="M40 45v430M760 45v430"/>
+  </g>
+</svg>

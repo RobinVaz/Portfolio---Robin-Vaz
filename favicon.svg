@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="R avec ordinateur">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f1b2b" />
+      <stop offset="100%" stop-color="#16314f" />
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d6e9ff" />
+      <stop offset="100%" stop-color="#96c3ff" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffcc66" />
+      <stop offset="100%" stop-color="#ff9f3d" />
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#bg)" />
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="none" stroke="#78aeea" stroke-opacity="0.32" stroke-width="2" />
+
+  <rect x="13" y="14" width="38" height="26" rx="5" fill="#0c1522" stroke="url(#screen)" stroke-width="2" />
+  <rect x="15.5" y="16.5" width="33" height="21" rx="3" fill="#12263f" />
+
+  <path d="M27 52h10l-1.2-5h-7.6L27 52Z" fill="#7ba5d3" />
+  <rect x="22" y="52" width="20" height="3.5" rx="1.75" fill="#5f84ad" />
+
+  <path d="M22 34V20h7.4c3.8 0 6.1 1.9 6.1 4.9 0 2.2-1.2 3.8-3.3 4.5L36.8 34h-4.5l-4-4h-1.9v4H22Zm4.4-7.3H30c1.1 0 1.8-.6 1.8-1.6s-.7-1.6-1.8-1.6h-3.6v3.2Z" fill="url(#screen)" />
+  <g transform="rotate(-22 40 28)">
+    <rect x="37.3" y="19" width="3.4" height="14.5" rx="1.1" fill="url(#accent)" />
+    <rect x="37.3" y="17.2" width="3.4" height="1.8" rx="0.6" fill="#f2a3b8" />
+    <path d="M37.3 33.5h3.4L39 36.2l-1.7-2.7Z" fill="#f5d7ad" />
+    <path d="M38.45 34.9h1.1L39 36.2l-.55-1.3Z" fill="#26384f" />
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="t d">
+  <title id="t">Croquis automobile</title>
+  <desc id="d">Silhouette technique d un vehicule connecte</desc>
+  <rect width="800" height="520" fill="#0c1524"/>
+  <g stroke="#aed0f5" stroke-opacity="0.76" fill="none" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M90 322h42l34-96 158-64h258l84 22 100 86h44v52h-58"/>
+    <circle cx="280" cy="334" r="62"/>
+    <circle cx="664" cy="334" r="62"/>
+    <path d="M346 164v106h250v-90M486 176h88l72 60"/>
+    <path d="M232 270h518M90 322h28M752 322h58M366 206h52M606 212h66"/>
+    <path d="M390 144l28-28h142l32 28"/>
+    <path d="M124 108h138M618 88h162" stroke-dasharray="8 10"/>
+    <path d="M176 226l26-36h92M744 236l-30-34h-92"/>
+    <path d="M250 334h118M604 334h118" stroke-dasharray="5 7"/>
+    <path d="M76 424h648"/>
+  </g>
+  <g fill="#d4e5fb" font-family="monospace" font-size="18">
+    <text x="124" y="102">MOBILITY PLATFORM</text>
+    <text x="562" y="84">CONNECTED VEHICLE</text>
+    <text x="344" y="446">SENSOR + CONTROL + TELEMETRY</text>
+  </g>
+  <g stroke="#668fbe" stroke-opacity="0.35" fill="none">
+    <rect x="44" y="44" width="712" height="432" rx="14"/>
+    <path d="M60 60h680M60 460h680"/>
+  </g>
+</svg>

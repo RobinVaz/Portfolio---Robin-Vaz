@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-label="Miniature du rapport fauteuil roulant connecte">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#122033"/>
+      <stop offset="100%" stop-color="#0d1624"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4f82c2"/>
+      <stop offset="100%" stop-color="#86aad9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="620" fill="url(#bg)"/>
+  <rect x="28" y="28" width="844" height="564" rx="20" fill="#111c2c" stroke="#3f5674" stroke-width="3"/>
+
+  <rect x="72" y="78" width="312" height="26" rx="6" fill="url(#accent)" opacity="0.95"/>
+  <text x="72" y="140" fill="#e9f1fb" font-family="Arial, sans-serif" font-size="38" font-weight="700">RAPPORT PROJET</text>
+  <text x="72" y="186" fill="#c1d3ea" font-family="Arial, sans-serif" font-size="32" font-weight="700">FAUTEUIL ROULANT CONNECTE</text>
+
+  <g opacity="0.82" stroke="#6f91bc" stroke-width="3" fill="none">
+    <circle cx="655" cy="286" r="82"/>
+    <circle cx="492" cy="452" r="44"/>
+    <path d="M495 452 L605 347 L655 286"/>
+    <path d="M512 452 L640 452"/>
+  </g>
+
+  <g stroke="#5e7ea8" stroke-width="2" opacity="0.58">
+    <line x1="74" y1="244" x2="828" y2="244"/>
+    <line x1="74" y1="282" x2="828" y2="282"/>
+    <line x1="74" y1="320" x2="828" y2="320"/>
+    <line x1="74" y1="358" x2="828" y2="358"/>
+    <line x1="74" y1="396" x2="828" y2="396"/>
+    <line x1="74" y1="434" x2="828" y2="434"/>
+  </g>
+
+  <rect x="72" y="512" width="182" height="52" rx="10" fill="#204066"/>
+  <text x="104" y="547" fill="#e9f1fb" font-family="Arial, sans-serif" font-size="26" font-weight="700">APERÇU PDF</text>
+</svg>

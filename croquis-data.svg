@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="t d">
+  <title id="t">Schema data et BI</title>
+  <desc id="d">Graphiques et pipeline de donnees</desc>
+  <rect width="800" height="520" fill="#0d1727"/>
+  <g fill="none" stroke="#a4c5ef" stroke-opacity="0.72" stroke-width="2">
+    <path d="M80 430h640"/>
+    <path d="M110 430V170M220 430V240M330 430V140M440 430V200M550 430V110M660 430V250"/>
+    <path d="M90 120h180M530 120h180" stroke-dasharray="6 8"/>
+    <rect x="86" y="84" width="220" height="64" rx="10"/>
+    <rect x="500" y="84" width="220" height="64" rx="10"/>
+    <rect x="268" y="238" width="264" height="72" rx="10"/>
+    <path d="M196 148v88h72M610 148v88h-78"/>
+    <path d="M238 430c54-72 108-120 172-110 62 10 96 66 148 70 50 4 92-38 142-94"/>
+  </g>
+  <g fill="#d5e6fb" font-family="monospace" font-size="20">
+    <text x="114" y="122">SQL / ETL</text>
+    <text x="524" y="122">POWER BI</text>
+    <text x="327" y="280">KPI ENGINE</text>
+    <text x="90" y="470">DATA FLOW -> DECISION SUPPORT</text>
+  </g>
+  <g fill="#5d88bd" fill-opacity="0.2">
+    <circle cx="330" cy="332" r="6"/>
+    <circle cx="410" cy="346" r="6"/>
+    <circle cx="492" cy="340" r="6"/>
+    <circle cx="574" cy="312" r="6"/>
+    <circle cx="654" cy="262" r="6"/>
+  </g>
+</svg>
