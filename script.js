@@ -57,7 +57,7 @@ function App() {
         <nav className={mobileMenuOpen ? 'nav-open' : ''}>
           <a href="#top" onClick={() => setMobileMenuOpen(false)}>Accueil</a>
           <a href="projects.html" onClick={() => setMobileMenuOpen(false)}>Projets</a>
-          <a href="#competences" onClick={() => setMobileMenuOpen(false)}>Competences</a>
+          <a href="index.html#competences" onClick={() => setMobileMenuOpen(false)}>Competences</a>
           <a href="experience.html" onClick={() => setMobileMenuOpen(false)}>Experiences</a>
           <a href="#contact" onClick={() => setMobileMenuOpen(false)}>Contact</a>
         </nav>

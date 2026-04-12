@@ -191,7 +191,7 @@ function ExperiencePage() {
       <main id="top" className="container">
         <section className="hero reveal projects-hero">
           <h1>Experiences professionnelles</h1>
-          <p className="hero-domain">Data, automatisation, logistique et relation client</p>
+          <p className="hero-domain">Data, automatisation, communication et esprit d'equipe</p>
           <p className="lead">Retrouve ci-dessous mes experiences professionnelles sous forme de timeline.</p>
         </section>
 
