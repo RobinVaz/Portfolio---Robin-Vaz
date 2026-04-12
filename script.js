@@ -114,11 +114,7 @@ function App() {
         <section id="competences" className="skills-section card reveal">
           <div className="skills-section-head">
             <p className="eyebrow">Outils utilises</p>
-            <h2>Competences visibles en un coup d'oeil</h2>
-            <p>
-              Les logos ci-dessous representent les outils et technologies que j'ai deja utilises dans mes projets et
-              mes experiences.
-            </p>
+            <h2>Competences techniques</h2>
           </div>
 
           <div className="skills-grid" aria-label="Competences et outils">
